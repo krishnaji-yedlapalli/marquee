@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
 
   Widget _buildMarquee() {
     return Marquee(
-      text: 'There once was a boy who told this story about a boy: "',
+      text: '<span style="color:#1abc9c">Test. &nbsp; &nbsp;</span>&nbsp;<strong>message. &nbsp; &nbsp;</strong>&nbsp;<span style="color:#9b59b6">by</span>&nbsp; &nbsp; &nbsp;&nbsp;<span style="color:#f39c12">Sandeep &nbsp;</span>',
     );
   }
 
